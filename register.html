@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="alert-box">
+        <p class="alert">msg</p>
+    </div>
+    
+    
+    <div class="form">
+        <h1 class="heading">Register</h1>
+        <form action="register.php" method="post">
+        <input type="text" placeholder="name" class="mame" name="name" required>
+        <input type="email" placeholder="email" class="email" name="email" required>
+        <input type="password" placeholder="password" name="password" class="password" required>
+        <button class="submit-btn" name="submit">register</button>
+        </form>
+        <a href="login.html" class="link">already have an account? login</a>
+    </div>
+
+    <script src="form.js"></script>
+</body>
+</html>
