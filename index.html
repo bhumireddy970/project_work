@@ -13,14 +13,17 @@
   <link rel="stylesheet" href="../projects/bootstrap-social.css">
   <!-- for bootstrap javascript -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <style>
     .img {
       background-image: url(https://res.cloudinary.com/dsdcaxwpg/image/upload/v1716866600/DeWatermark.ai_1716866558575_eyki8v.png);
       background-repeat: no-repeat;
       background-size:cover;
       background-position: center;
-      background-attachment: scroll;
-      
+      background-attachment: scroll;      
     }
     a{
       text-decoration: none;
@@ -31,7 +34,8 @@
 			margin-left: 10px;
 			font-size: 16px;
 		}
-  </style>
+
+</style>
 </head>
 
 <body>
@@ -55,7 +59,7 @@
             <a class="nav-link active fa fa-home fa-lg" aria-current="page" href="#home">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#about">About</a>
+            <a class="nav-link" href="#">About</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -85,12 +89,51 @@
     </div>
   </nav>
 
-  <div class="img container-fluid image_wrapper" id="home" style="padding: 40%;">
-    <p style="color: rgb(230, 40, 40); padding-top: 50px;"><pre>To Know More</pre></p>
-      <a href="s.html" style="align-content: center;"><button class="btn btn-outline-success " >Click Here</button></a>
+  <div class="container">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+  
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" style="width: 100%;">
+        <div class="item">
+          <img src="https://res.cloudinary.com/dsdcaxwpg/image/upload/v1716913061/hqdefault_j7y69x.jpg" alt="Yoga" style="width:100%;">
+        </div>
+  
+        <div class="item active">
+          <img src="https://res.cloudinary.com/dsdcaxwpg/image/upload/v1716913164/PMYogaAward200_ltr1oc.jpg" alt="Yoga" style="width:100%;">
+        </div>
+      
+        <div class="item">
+          <img src="https://res.cloudinary.com/dsdcaxwpg/image/upload/v1716913159/IMG_3803-scaled_btefsd.jpg" alt="Yoga" style="width:100%;">
+        </div>
+      </div>
+  
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+  
+
+  <div class="img container-fluid bg-opacity-75" id="home" style="padding: 40%;">
+    <div class="bg-danger p-2 text-white bg-opacity-75" style="border-radius: 100px;">
+        <h1 style="color: rgb(230, 40, 40); padding-top: 50px;"><pre>To Know More</pre></h1>
+        <a href="s.html" style="align-content: center;"><button class="btn btn-outline-success">Click Here</button></a>
+    </div>
   </div>
 
-  <div class="container-fluid justify-content-center" style="background-color: aqua;" id="about">
+  <div class="container-fluid justify-content-center" style="background-color: aqua;">
     <img
     src="https://images.ctfassets.net/p0sybd6jir6r/3WQ8EYumUqzbApAmaRlaWs/d8b255bd928be524a559bf1b6b41c7d2/Meditation.png?q=70&amp;w=360&amp;fm=webp"
     loading="lazy" decoding="async" style="padding-left: 35%;">
