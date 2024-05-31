@@ -14,29 +14,28 @@ body{
     min-height: 100vh;
     height: auto;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
-    background: url(https://res.cloudinary.com/dsdcaxwpg/image/upload/v1717198888/DeWatermark.ai_1717198780237_xvvzts.png);
+    background: url(https://res.cloudinary.com/dsdcaxwpg/image/upload/v1717198887/yoga2_z5v2wo.jpg);
     background-repeat: no-repeat;
-    background-size: 100% 110%;
+    background-size: 100% 120%;
     font-family: 'roboto',sans-serif;
     
 }
 
 .form{
+    margin-left: 180px;
     width: 480px;
     height: 500px;
     color: #fff;
     top: 100px;
     font-family: 'roboto',sans-serif;
     align-items: center;
-
-}
-.formbg{
-    background-image: linear-gradient(to right bottom,rgb(102, 0, 255),rgb(203, 28, 234),rgb(246, 150, 166));
-    border-radius: 10px;
+    background-image:linear-gradient(to bottom,rgba(255, 149, 0, 0.769),rgba(255, 221, 0, 0.832),rgba(241, 114, 250, 0.809)) ;
     opacity: 0.9;
+    border-radius: 10px;
 }
+
 .heading{
     text-transform: capitalize;
     text-align: center;
@@ -75,7 +74,6 @@ input:focus,.submit-btn:hover{
 input:hover{
     box-shadow: 0px 0px 20px white;
 }
-
 input:focus::placeholder{
     color: #000;
 }
@@ -100,7 +98,7 @@ input:focus::placeholder{
 }
 .cross{
     font-size: 30px;
-    margin-left: 450px;
+    margin-left: 445px;
     color: #fff;
     
 }
