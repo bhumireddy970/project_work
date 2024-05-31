@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="../projects/bootstrap-social.css">
   <!-- for bootstrap javascript -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <style>
@@ -78,6 +79,9 @@
           <li class="nav-item">
             <a class="nav-link" href="#contact">Contact</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="expand_cards.html">Gallery</a>
+          </li>
         </ul>
         <form class="d-flex" role="search">
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -87,51 +91,175 @@
     </div>
   </nav>
 
-  <div id="demo" class="carousel slide" data-bs-ride="carousel">
 
-    <!-- Indicators/dots -->
+
+
+
+
+  <div id="carouselExampleIndicators" class="carousel slide">
     <div class="carousel-indicators">
-      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
-    
-    <!-- The slideshow/carousel -->
-    <div class="carousel-inner">
+    <div class="carousel-inner ">
       <div class="carousel-item active">
-        <img src="https://res.cloudinary.com/dsdcaxwpg/image/upload/v1716913061/hqdefault_j7y69x.jpg" alt="Los Angeles" class="d-block" style="width:100%">
+        <img src="https://res.cloudinary.com/dsdcaxwpg/image/upload/v1716913061/hqdefault_j7y69x.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item ">
+        <img src="https://res.cloudinary.com/dsdcaxwpg/image/upload/v1716913164/PMYogaAward200_ltr1oc.jpg" class="d-block w-100" alt="...">
       </div>
       <div class="carousel-item">
-        <img src="https://res.cloudinary.com/dsdcaxwpg/image/upload/v1716913164/PMYogaAward200_ltr1oc.jpg" alt="Chicago" class="d-block" style="width:100%">
-      </div>
-      <div class="carousel-item">
-        <img src="https://res.cloudinary.com/dsdcaxwpg/image/upload/v1716913159/IMG_3803-scaled_btefsd.jpg" alt="New York" class="d-block" style="width:100%">
+        <img src="https://res.cloudinary.com/dsdcaxwpg/image/upload/v1716913159/IMG_3803-scaled_btefsd.jpg" class="d-block w-100" alt="...">
       </div>
     </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <section class="pt-5 pb-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <h3 class="mb-3 text-danger">Yoga Special Postures</h3>
+            </div>
+            <div class="col-6 text-right">
+                <a class="btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators2" role="button"
+                    data-slide="prev">
+                    <i class="fa fa-arrow-left"></i>
+                </a>
+                <a class="btn btn-primary mb-3" href="#carouselExampleIndicators2" role="button" data-slide="next">
+                    <i class="fa fa-arrow-right"></i>
+                </a>
+            </div>
+            <div class="col-12">
+                <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid" alt="100%x280"
+                                            src="https://res.cloudinary.com/dsdcaxwpg/image/upload/v1717131434/pngtree-fantasy-pattern-light-effect-yoga-day-advertising-background-image_2560640_duym9g.jpg">
+                                        <div class="card-body">
+                          
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid" alt="100%x280"
+                                            src="https://res.cloudinary.com/dsdcaxwpg/image/upload/v1717131754/pngtree-yoga-day-mandala-fantasy-pattern-light-effect-advertising-background-image_2560648_g2cmmq.jpg">
+                                        <div class="card-body">
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid" alt="100%x280"
+                                            src="https://res.cloudinary.com/dsdcaxwpg/image/upload/v1717131754/pngtree-black-and-white-flower-plant-border-yoga-action-silhouette-yoga-day-image_2560831_vmdaov.jpg">
+                                        <div class="card-body">
+
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid" alt="100%x280"
+                                            src="https://res.cloudinary.com/dsdcaxwpg/image/upload/v1717131754/pngtree-fantasy-starry-sky-yoga-day-people-silhouette-advertising-background-image_2560820_mrtaki.jpg">
+                                        <div class="card-body">
+
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid" alt="100%x280"
+                                            src="https://res.cloudinary.com/dsdcaxwpg/image/upload/v1717133335/pngtree-plant-flower-silhouette-yoga-pose-yoga-day-advertising-background-image_2560833_uetti3.jpg">
+                                        <div class="card-body">
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid" alt="100%x280"
+                                            src="https://res.cloudinary.com/dsdcaxwpg/image/upload/v1717133333/pngtree-sunset-trees-yoga-figure-silhouette-yoga-day-advertisement-background-image_2560756_cmai3d.jpg">
+                                        <div class="card-body">
     
-    <!-- Left and right controls/icons -->
-    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon"></span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-      <span class="carousel-control-next-icon"></span>
-    </button>
-  </div>
-  
-  <div class="container-fluid mt-3">
-  </div>
-  
-      <!-- Left and right controls -->
-      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="right carousel-control" href="#myCarousel" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right"></span>
-        <span class="sr-only">Next</span>
-      </a>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid" alt="100%x280"
+                                            src="https://res.cloudinary.com/dsdcaxwpg/image/upload/v1717133329/pngtree-yoga-day-retro-cartoon-sunset-landscape-illustration-cartoon-advertising-background-image_2560685_adjoti.jpg">
+                                        <div class="card-body">
+
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid" alt="100%x280"
+                                            src="https://res.cloudinary.com/dsdcaxwpg/image/upload/v1717133334/pngtree-yoga-app-advertisement-in-green-park-with-woman-and-smartphone-photo-image_48621720_ccothp.jpg">
+                                        <div class="card-body">
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid" alt="100%x280"
+                                            src="https://res.cloudinary.com/dsdcaxwpg/image/upload/v1717133333/pngtree-watercolor-painting-yoga-day-yoga-pose-painting-cartoon-advertising-background-image_2560779_ar3tyx.jpg">
+                                        <div class="card-body">
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
+</section>
+
+
+
+
   
 
   <div class="img container-fluid bg-opacity-75" id="home" style="padding: 40%;">
@@ -334,6 +462,13 @@
       </footer>
       <!-- Footer -->
     <!-- End of .container -->
+
+      <!-- JavaScript dependencies -->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+      <script type="text/javascript"
+          src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+      <script type="text/javascript"
+          src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 </body>
 
 </html>
