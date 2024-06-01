@@ -16,11 +16,10 @@
     background-position: center;
     background-repeat: no-repeat;
     height: 80vh;
-    width: 100%;
     border-radius: 50px;
     color: aliceblue;
     cursor: pointer;
-    flex: 0.5; 
+    flex: 0; 
     margin: 10px;
     position: relative;
     transition: flex 0.7s ease-in;
@@ -36,7 +35,7 @@
 }
 
 .pannel.active{
-    flex: 50;
+    flex: 10;
 }
 
 .pannel.active h3{
