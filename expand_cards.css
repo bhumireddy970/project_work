@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-body{
+/* body{
     font-family:'Times New Roman', Times, serif;
     display:flex;
     align-items: center;
@@ -10,7 +10,7 @@ body{
     height: 100vh;
     margin: 0;
 }
- 
+  */
 .pannel{
     background-size: auto 100%;
     background-position: center;
@@ -41,4 +41,24 @@ body{
 
 .pannel.active h3{
     opacity: 1;
+}
+
+.gallery{
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 60vh;
+    width: 100%;
+    position: relative;
+    opacity: 0.5;
+}
+
+.gallery h3{
+    font-size: 70px;
+    position: absolute;
+    bottom: 50%;
+    left: 45%;
+    margin: 0;
+    opacity: 1;
+    color: blue;
 }
