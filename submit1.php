@@ -37,9 +37,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         if ($result->num_rows > 0) {
             echo '<script type="text/javascript">';
-            echo 'alert("Successfully logged in!");';
+           
             echo 'window.location.href = "index1.html";';
-            echo 'document.getElementById("welcome").style.display="none"';
             echo '</script>';
         } else {
             echo '<script type="text/javascript">';
